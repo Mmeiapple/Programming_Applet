@@ -17,9 +17,7 @@ class BubbleSort():
         self.lenth=len(self.datalist)
     def bubble_sort(self):
         for i in range(self.lenth):
-            print("i=",i)
             for j in range(self.lenth-i-1):
-                print("j=",j)
                 if self.datalist[j]>self.datalist[j+1]:
                     self.datalist[j],self.datalist[j+1]=self.datalist[j+1],self.datalist[j]
         return self.datalist
