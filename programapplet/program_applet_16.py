@@ -22,3 +22,4 @@ class PerfectNumber():
 
 if __name__ == "__main__":
     PerfectNumber().perfectnumber()
+
